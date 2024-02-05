@@ -100,6 +100,8 @@ p {
   display: flex;
   height: 200px;
   flex-direction: column;
+  margin-top:30px;
+ 
   justify-content: center;
 
   > h2 {
@@ -133,3 +135,19 @@ p {
     height:10px;
   }
 }
+
+button{
+  background-color: #2B8DFC !important;
+  border-radius: var(--card-border-radius);
+ padding:10px;
+ width:85%;
+ margin: 10px;
+ height:40px;
+ font-size: larger;
+align-items: center;
+  
+  text-align: center;
+  color: white;
+  
+}
+ 

@@ -1,6 +1,8 @@
 import featured from "../../assets/featured.png";
 import closeimg from "../../assets/closeimg.png";
 
+
+
 function VideoCard({ movie = {} }) {
 
   
@@ -19,6 +21,7 @@ function VideoCard({ movie = {} }) {
 <div className="card-details">{movie.featured && <img className="featured-image" src={featured} />} <h6>{movie.features.desc6}</h6></div>
 <div className="card-details">{movie.featured && <img className="featured-image" src={featured} />} <h6>{movie.features.desc7}</h6></div>
 <div className="card-details">{movie.featured && <img className="featured-image" src={featured} />} <h6>{movie.features.desc8}</h6></div>
+<button>Button</button>
       </div>
     </div>
   );
